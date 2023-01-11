@@ -1,0 +1,313 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(39, 230, 118);
+}
+
+.main-div {
+    margin: 150px auto;
+
+    background-color: white;
+    width: 500px;
+    height: 430px;
+}
+
+h3 {
+    width: 250px;
+    height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 230px;
+}
+
+.code {
+    width: 250px;
+    height: 25px;
+    color: rgb(167, 167, 167);
+    font-size: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 230px;
+}
+
+.rs {
+    color: red;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    left: 230px;
+}
+
+.price {
+    color: red;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    left: 250px;
+    font-size: 50px;
+}
+
+.select-color p {
+    width: 250px;
+    height: 25px;
+    color: rgb(167, 167, 167);
+    font-size: 11px;
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+
+.other-apples {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+    left: 230px;
+}
+
+.green-apple {
+    width: 30px;
+    height: 30px;
+    background-image: url(./media/01green.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 1px solid gray;
+}
+
+.green-apple:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.yellow-apple {
+    width: 30px;
+    height: 30px;
+    background-image: url(./media/03yellow.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+.yellow-apple:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.yellow-apple:active {
+    border: 1px solid red;
+}
+
+.pink-apple {
+    width: 30px;
+    height: 30px;
+    background-image: url(./media/03pink.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -60px;
+    left: 80px;
+}
+
+.pink-apple:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.red-apple {
+    width: 30px;
+    height: 30px;
+    background-image: url(./media/04red.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -90px;
+    left: 120px;
+}
+
+.red-apple:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.benefit {
+    width: 250px;
+    height: 25px;
+    color: rgb(167, 167, 167);
+    font-size: 11px;
+    position: relative;
+    top: 6px;
+    left: 230px;
+}
+
+.benefit-list {
+    width: 300px;
+    height: 25px;
+    font-size: small;
+    position: relative;
+    top: -16px;
+    left: 200px;
+}
+
+.button {
+    background-color: rgb(247, 67, 67);
+    width: 150px;
+    height: 40px;
+    font-size: 11px;
+    position: relative;
+    top: 45px;
+    left: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    color: white;
+    padding-top: 14px;
+    padding-left: 40px;
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.button:hover {
+    background-color: rgb(247, 105, 105);
+}
+
+.main-icon {
+
+    width: 230px;
+    height: 370px;
+    position: relative;
+    top: -310px;
+    left: -25px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+
+}
+
+.img-main {
+    width: 230px;
+    height: 305px;
+    background-image: url(./media/Apple-Green.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+.share {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    left: 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    top: -50px;
+    left: 180px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.img-view {
+    background-color: white;
+    width: 230px;
+    height: 65px;
+    position: relative;
+}
+
+.view1 {
+    width: 45px;
+    height: 45px;
+    background-image: url(./media/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: 1px solid rgb(163, 161, 161);
+    top: 10px;
+    left: 13px;
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px rgb(141, 139, 139);
+}
+
+.view1:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.view2 {
+    width: 45px;
+    height: 45px;
+    background-image: url(./media/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -35px;
+    left: 67px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px rgb(141, 139, 139);
+}
+
+.view2:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.view3 {
+    width: 45px;
+    height: 45px;
+    background-image: url(./media/3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -80px;
+    left: 119px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px rgb(141, 139, 139);
+}
+
+.view3:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
+
+.view4 {
+    width: 45px;
+    height: 45px;
+    background-image: url(./media/4.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -125px;
+    left: 172px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 5%;
+    box-shadow: 0px 0px 2px rgb(141, 139, 139);
+}
+
+.view4:hover {
+    box-shadow: 1px 3px 15px rgb(141, 139, 139);
+}
